@@ -60,7 +60,7 @@ var replyID = jayTweet.id_str//toString();
 var tweetText = jayTweet.text;
 //var whatToSay = "@" + jayTweet.user.screen_name + " Mavs Suck"
 //if(jayTweet.user.screen_name === "jappaji4")
-if(jayTweet.user.screen_name !== "sethchade")
+if(jayTweet.user.screen_name !== "AdityaNelakonda")
 {
   tweet(spongebob(tweetText),replyID);
 }
