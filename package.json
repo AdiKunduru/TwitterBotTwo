@@ -1,0 +1,25 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "Demonstrating npm for twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "tester",
+    "heroku"
+  ],
+  "engines": {
+    "node": "6.11.0"
+  },
+  "author": "Aditya Nelakonda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "path": "^0.12.7",
+    "twit": "^2.2.9"
+  }
+}
