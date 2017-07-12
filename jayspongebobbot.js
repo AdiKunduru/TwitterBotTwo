@@ -5,10 +5,7 @@ var twit = require("twit");
 //var config = require("./config");
 
 var T = new twit({
-consumer_key : "rXg5bBw2cKzTxozqQX7e3M1la"
-, consumer_secret: "YzLgHSWGlzsWIiZB5now5dJL4yWKrCPv40xqoaybzv2uffH4Q0"
-, access_token: "882832892103208960-bVRyFIcWwMUgX0FXAsK9bAvuBHnGYEZ"
-, access_token_secret: "R552sAdrT8Yto4dFqkowmfvJAnTaOw5RJWb13nILUeiPr"
+//Your API KEYS
 });
 
 var jayID = "jappaji4"
