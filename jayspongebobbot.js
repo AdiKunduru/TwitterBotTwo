@@ -33,7 +33,7 @@ function spongebob(text){
 
           var  n = Math.floor(Math.random()*2)
 
-           if(text.charAt(i)===(' '))
+           if(text.charAt(i)===(' ')|| text.charAt(i)===('@'))
            {
                meme += text.charAt(i);
            }
