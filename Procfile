@@ -1,1 +1,1 @@
-web: node jayspongebobbot.js
+worker: node jayspongebobbot.js
