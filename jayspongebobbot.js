@@ -1,5 +1,3 @@
-//var juice = "juice";
-//console.log(juice);
 
 var twit = require("twit");
 //var config = require("./config");
@@ -8,15 +6,12 @@ var T = new twit({
 //Your API KEYS
 });
 
-var jayID = "jappaji4"
 var myID = "sethchade"
-var rodID = "roddy97"
-var rudraID = "pinchhitter11"
 
-//?????????????????????????
+
 //Stream needs to be following the right user account
 var stream = T.stream('statuses/filter',{
-   follow : 614668900
+   follow : //user Twitter ID
  });
 
 //Tried to run for every tweet ever made. Needs to run for new tweets.
@@ -48,16 +43,15 @@ function spongebob(text){
   return meme;
 }
 
-//console.log(spongebob("this is a sample tweet"))
+
 
 // Be notified when he is tweeting Get Tweet ID. status.id
-function watchForTweet(jayTweet)
+function watchForTweet(userTweet)
 {
-var replyID = jayTweet.id_str//toString();
-var tweetText = jayTweet.text;
-//var whatToSay = "@" + jayTweet.user.screen_name + " Mavs Suck"
-//if(jayTweet.user.screen_name === "jappaji4")
-if(jayTweet.user.screen_name !== "AdityaNelakonda")
+var replyID = userTweet.id_str//toString();
+var tweetText = userTweet.text;
+
+if(userTweet.user.screen_name !== myID)
 {
   tweet(spongebob(tweetText),replyID);
 }
